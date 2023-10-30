@@ -1,11 +1,10 @@
 
-const Button = ({type, label, to}) => {
+const Button = ({variant, px, label}) => {
   return (
     <button
-        type={type}
-        className="flex px-3 py-3 justify-center gap-3 rounded-full border"
+        className={`pointer ${variant} ${px}`}
     >
-        <label htmlFor={to} className="pointer">{label}</label>
+        <label className="pointer">{label}</label>
     </button>
   )
 }

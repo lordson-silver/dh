@@ -2,7 +2,15 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: 'rgba(242, 106, 59, 0.80)',
+      },
+      fontFamily: {
+        'display': ['Josefin Sans'],
+        'normal': ['Inter'],
+      },
+    },
   },
   plugins: [],
 };

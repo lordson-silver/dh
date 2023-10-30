@@ -5,7 +5,7 @@ const App = () => (
 
       <Nav />
 
-      <section className="xl:padding-l wide:padding-r padding-b">
+      <section className="padding sm:py-32 py-16 w-full bg-[url('./assets/images/landing.png')] bg-cover bg-no-repeat bg-center">
         <Hero />
       </section>
       <section className="padding">
@@ -23,7 +23,7 @@ const App = () => (
       <section className="padding">
         <Faq />
       </section>
-      <footer className="padding-x padding-t pb-8">
+      <footer className="padding py-8 text-white bg-grad">
         <Footer />
       </footer>
     </main>

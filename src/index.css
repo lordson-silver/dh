@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,11 +26,7 @@
 
 @layer utilities {
   .padding {
-    @apply sm:px-16 px-8 sm:py-24 py-12
-  }
-
-  .padding-x {
-    @apply sm:px-16 px-8;
+    @apply sm:px-16 px-2;
   }
 
   .padding-y {
@@ -49,4 +48,15 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
+
+  .bg-fill {
+    @apply flex py-2 justify-center text-white rounded-full bg-primary;
+  }
+  .bg-outline {
+    @apply flex py-2 justify-center rounded-full text-black border-2 border-black;
+  }
+}
+
+.bg-grad {
+background: linear-gradient(0deg, rgba(242, 106, 59, 0.80) 0%, rgba(242, 106, 59, 0.80) 100%), url(<path-to-image>), lightgray 50% / contain no-repeat;
 }
