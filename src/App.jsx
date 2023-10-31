@@ -1,11 +1,11 @@
+import { landing } from './assets/images';
 import { Hero, About, Download, Earn, Faq, Footer, Nav, Services } from './sections'
 
 const App = () => (
     <main className="relative">
 
       <Nav />
-      <img src="./assets/images/landing.png?url" alt="image" />
-      <section className="padding sm:py-32 py-16 w-full bg-[url('./assets/images/landing.png')] bg-cover bg-no-repeat bg-center">
+      <section className={`padding sm:py-32 py-16 w-full bg-cover bg-no-repeat bg-center`} style={{backgroundImage: `url(${landing})`}}>
         <Hero />
       </section>
       <section className="padding">
