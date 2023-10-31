@@ -1,4 +1,5 @@
 import Button from '../components/Button'
+import { image2 } from '../assets/images'
 const Earn = () => {
   return (
     <div className="flex flex-col gap-5 shrink-0 items-center justify-center p-3 w-full min-h-screen">
@@ -19,7 +20,7 @@ const Earn = () => {
       </div>
       <div className="flex md:flex-row flex-col px-8 p-3 justify-center items-start self-stretch gap-6 flex-1">
         <div className="flex flex-col justify-center items-start gap-5 flex-1">
-          <img src="./../assets/images/image2.png" alt="image" className="w-full object-contain"/>
+          <img src={image2} alt="image" className="w-full object-contain"/>
           <h3 className="text-3xl font-bold">Earn With Dispatch Hub</h3>
           <p className="text-lg font-semibold">Are you a motorcycle or car owner, and looking to earn  with Dispatch Hub? <br />Join us today</p>
           <Button 

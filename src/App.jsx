@@ -4,7 +4,7 @@ const App = () => (
     <main className="relative">
 
       <Nav />
-
+      <img src="./assets/images/landing.png?url" alt="image" />
       <section className="padding sm:py-32 py-16 w-full bg-[url('./assets/images/landing.png')] bg-cover bg-no-repeat bg-center">
         <Hero />
       </section>

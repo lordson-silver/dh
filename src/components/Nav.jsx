@@ -1,4 +1,4 @@
-import {hamburger} from '../assets/icons'
+import hamburger from '../assets/icons/hamburger.svg'
 import Button from './Button'
 const Nav = () => {
   return (

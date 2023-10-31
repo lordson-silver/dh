@@ -1,10 +1,11 @@
+import { image5 } from "../assets/images"
 
 const Services = () => {
   return (
     <div className="flex flex-col items-center px-5 py-10 gap-4 shrink-0">
       <h3 className="flex self-start text-3xl font-bold md:ml-10">Our Services</h3>
       <div className="flex flex-col items-center justify-center text-center gap-5">
-        <img src="./../assets/images/image5.png" alt="image" className="md:w-2/3 object-contain"/>
+        <img src={image5} alt="image" className="md:w-2/3 object-contain"/>
         <p className="text-lg md:w-2/3 font-semibold p-3">Welcome to Dispatch Hub, you can trust us to seamlessly and efficiently deliver your goods and or services. We pride ourselves on simplifying the delivery process for businesses and individuals alike. Our comprehensive range of services is designed to meet your every delivery need:</p>
       </div>
       <div className="flex p-4 items-start gap-5 overflow-x-scroll md:w-2/3 w-full">
